@@ -144,8 +144,8 @@ def main():
         w_width, w_height))
     ground.setFill("green")
     ground.draw(window)
-    velocity = 5
-    gravity = 15
+    velocity = 1
+    gravity = 5
     cart = create_cart(window, 50, w_height - 100)
     points = 0
 
